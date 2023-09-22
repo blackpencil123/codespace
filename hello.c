@@ -10,7 +10,9 @@ int main(void){
    }
    while( vu < 1);
       for (int i=0 ; i< vu ; i++){
-          printf("#");
+        for ( int j=0; j< vu ; j++){
+            printf("#");
+        }
       }
 
 
