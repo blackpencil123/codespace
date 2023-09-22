@@ -10,8 +10,10 @@ int main(void){
    }
    while( vu < 1);
       for (int i=0 ; i< vu ; i++){
-printf("#");
+          printf("#");
       }
+
+
       printf("\n");
 }
 
