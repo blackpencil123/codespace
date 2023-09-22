@@ -3,12 +3,12 @@
 int main(void){
 
 
-   int vu = -1;
+   int vu ;
 
-
-   while( vu < 1){
-    vu = get_int("enter number \n");
+   do{
+     vu = get_int("enter number ");
    }
+   while( vu < 1);
       for (int i=0 ; i< vu ; i++){
 printf("#");
       }
