@@ -13,10 +13,8 @@ int main(void){
         for ( int j=0; j< vu ; j++){
             printf("#");
         }
+       printf("\n");
       }
-
-
-      printf("\n");
 }
 
 
